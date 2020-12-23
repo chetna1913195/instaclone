@@ -1,0 +1,28 @@
+.navigation{
+    height:53px;
+    border-bottom:1px solid lightgrey;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-bottom:0px;
+   
+    .input{
+    position:relative;
+
+    .icon{
+    position:relative;
+    top:2px;
+    left:40px;
+    font-size:16px !important;
+}
+& > input{
+    text-align:center;
+    outline:none;
+}
+}
+}
+.avatar{
+    width:25px !important;
+    height:25px !important
+}
