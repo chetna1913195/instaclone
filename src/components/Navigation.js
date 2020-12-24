@@ -6,7 +6,8 @@ import TelegramIcon from "@material-ui/icons/Telegram"
 import ExploreIcon from "@material-ui/icons/Explore"
 import FavoriteIcon from "@material-ui/icons/Favorite"
 import SearchIcon from "@material-ui/icons/Search"
-import {IconButton,Avatar} from "@material-ui/core"
+
+import {IconButton} from "@material-ui/core"
 import ProfileIcon from './ProfileIcon'
 import  image from '../images/profile.jpg'
 
@@ -34,6 +35,7 @@ function Navigation() {
                <IconButton>
                    <FavoriteIcon />
                </IconButton>
+              
               
                
            </div>
