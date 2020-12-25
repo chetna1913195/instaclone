@@ -22,7 +22,9 @@
 }
 }
 }
-.avatar{
-    width:25px !important;
-    height:25px !important
-}
+@media only screen and (max-width: 500px) {
+    .input
+     {
+      display: none !important;
+    }
+  }
